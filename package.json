@@ -1,12 +1,42 @@
 {
-  "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.2.3",
-    "@nomiclabs/hardhat-etherscan": "^3.1.8",
-    "@nomiclabs/hardhat-waffle": "^2.0.6",
-    "@openzeppelin/contracts": "^5.2.0",
-    "chai": "^5.2.0",
-    "dotenv": "^16.4.7",
-    "ethereum-waffle": "^4.0.10",
-    "ethers": "^5.8.0"
-  }
+    "name": "fair-trade-nft",
+    "version": "1.0.0",
+    "description": "NFT-based Fair Trade certification system",
+    "main": "index.js",
+    "scripts": {
+        "test": "hardhat test",
+        "compile": "hardhat compile",
+        "deploy": "hardhat run scripts/deploy.js --network sepolia",
+        "issue": "hardhat run scripts/issue-certificate.js --network sepolia"
+    },
+    "keywords": [
+        "blockchain",
+        "nft",
+        "fair-trade",
+        "certification"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@nomiclabs/hardhat-ethers": "^2.0.0",
+        "@nomiclabs/hardhat-etherscan": "^3.0.0",
+        "@nomiclabs/hardhat-waffle": "^2.0.0",
+        "@openzeppelin/contracts": "^4.9.3",
+        "chai": "^4.3.4",
+        "dotenv": "^16.0.0",
+        "ethereum-waffle": "^3.0.0",
+        "ethers": "^5.0.0",
+        "hardhat": "^2.9.0"
+    },
+    "directories": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dinogari/Web3Hackathon.git"
+    },
+    "bugs": {
+        "url": "https://github.com/dinogari/Web3Hackathon/issues"
+    },
+    "homepage": "https://github.com/dinogari/Web3Hackathon#readme"
 }

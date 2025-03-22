@@ -1,0 +1,52 @@
+{
+    "name": "Fair Trade Certificate - Organic Coffee Co.",
+    "description": "This NFT certifies that Organic Coffee Co. adheres to fair trade principles, ensuring ethical treatment of workers, sustainable farming practices, and fair compensation throughout their supply chain.",
+    "image": "ipfs://YOUR_IPFS_IMAGE_CID",
+    "external_url": "https://yourfairtradecertification.org/verify/12345",
+    "attributes": [
+      {
+        "trait_type": "Certification Type",
+        "value": "Fair Trade"
+      },
+      {
+        "trait_type": "Industry",
+        "value": "Coffee"
+      },
+      {
+        "trait_type": "Certification Date",
+        "value": "2025-03-22",
+        "display_type": "date"
+      },
+      {
+        "trait_type": "Expiration Date",
+        "value": "2026-03-22",
+        "display_type": "date"
+      },
+      {
+        "trait_type": "Certification Level",
+        "value": "Gold"
+      },
+      {
+        "trait_type": "Verified Production Countries",
+        "value": "Colombia, Ethiopia, Indonesia"
+      },
+      {
+        "trait_type": "Supply Chain Transparency Score",
+        "value": 95,
+        "max_value": 100,
+        "display_type": "number"
+      }
+    ],
+    "certification_details": {
+      "certifying_body": "Global Fair Trade Alliance",
+      "certification_id": "FT-2025-12345",
+      "audit_report": "ipfs://YOUR_IPFS_AUDIT_REPORT_CID",
+      "compliance_areas": [
+        "Worker Rights",
+        "Environmental Sustainability",
+        "Fair Pricing",
+        "Ethical Sourcing",
+        "Community Development"
+      ]
+    }
+  }
